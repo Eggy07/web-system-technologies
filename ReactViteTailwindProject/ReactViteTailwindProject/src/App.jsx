@@ -11,13 +11,14 @@ function LoginPage() {
         <div className="flex justify-between items-center mb-6">
           <div className="flex space-x-6">
             <a href="https://vitejs.dev" target="_blank">
-              <img src={viteLogo} className="w-24" alt="Vite logo" />
+              <img src={viteLogo} className="w-16" alt="Vite logo" />
             </a>
+            <h2 className="text-2xl font-semibold text-gray-800 pl-20 pr-20">Login</h2>
             <a href="https://react.dev" target="_blank">
-              <img src={reactLogo} className="w-24" alt="React logo" />
+              <img src={reactLogo} className="w-16" alt="React logo" />
             </a>
           </div>
-          <h2 className="text-2xl font-semibold text-gray-800">Login</h2>
+         
         </div>
         <form>
           <div className="mb-4">
