@@ -9,7 +9,7 @@ import Students from './components/Students'
 import Admin from './components/Admin'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
        

@@ -13,7 +13,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className="bg-gray-900 text-white  w-64">
+    <aside className="bg-gray-900 text-white  w-38">
       <div className="p-8">
         <div>
           <h2 className="text-lg font-bold mb-4 text-orange-600 px-16">Sidebar</h2>
@@ -23,7 +23,7 @@ const Sidebar = () => {
                 <NavLink
                   exact
                   to={item.path}
-                  className={`text-white ${location.pathname === item.path ? activeClass : ''}`}
+                  className={`text-white hover: ${location.pathname === item.path ? activeClass : ''}`}
                 >
                   {item.name}
                 </NavLink>
